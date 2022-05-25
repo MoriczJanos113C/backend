@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "5f492a0e-d7a1-43a3-95ce-b8eb33719100",
+		"name": "gyakorlas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"todo\":\"valami\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4405/todo/6341e79b-5366-400b-84f2-eb8add47f393",
+					"host": [
+						"localhost"
+					],
+					"port": "4405",
+					"path": [
+						"todo",
+						"6341e79b-5366-400b-84f2-eb8add47f393"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4405/todos",
+					"host": [
+						"localhost"
+					],
+					"port": "4405",
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4405/todos/6341e79b-5366-400b-84f2-eb8add47f393",
+					"host": [
+						"localhost"
+					],
+					"port": "4405",
+					"path": [
+						"todos",
+						"6341e79b-5366-400b-84f2-eb8add47f393"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"todo\":\"tesztedit\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4405/editTodo/6341e79b-5366-400b-84f2-eb8add47f393",
+					"host": [
+						"localhost"
+					],
+					"port": "4405",
+					"path": [
+						"editTodo",
+						"6341e79b-5366-400b-84f2-eb8add47f393"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
